@@ -1,0 +1,186 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(/home/bartek/IdeaProjects/tram/src/main/scala/Tram.scala, /home/bartek/IdeaProjects/tram/src/main/scala/TramTimer.scala, /home/bartek/IdeaProjects/tram/src/main/scala/MpkStop.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mModified external sources: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/bartek/IdeaProjects/tram/src/main/scala/Tram.scala, /home/bartek/IdeaProjects/tram/src/main/scala/TramTimer.scala, /home/bartek/IdeaProjects/tram/src/main/scala/MpkStop.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/bartek/IdeaProjects/tram/src/main/scala/Tram.scala, /home/bartek/IdeaProjects/tram/src/main/scala/TramTimer.scala, /home/bartek/IdeaProjects/tram/src/main/scala/MpkStop.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 3 sources: invalidated sources (3) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 3 Scala sources to /home/bartek/IdeaProjects/tram/target/scala-2.11/classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.6[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.6[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 666f13bd, interfacing (CompilerInterface) with Scala compiler version 2.10.6[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.172-12.b11.fc28.x86_64/jre/lib/resources.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.172-12.b11.fc28.x86_64/jre/lib/rt.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.172-12.b11.fc28.x86_64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.172-12.b11.fc28.x86_64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.172-12.b11.fc28.x86_64/jre/lib/jce.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.172-12.b11.fc28.x86_64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.172-12.b11.fc28.x86_64/jre/lib/jfr.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.172-12.b11.fc28.x86_64/jre/classes:/home/bartek/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/bartek/IdeaProjects/tram/target/scala-2.11/classes:/home/bartek/.ivy2/cache/net.databinder.dispatch/dispatch-core_2.11/jars/dispatch-core_2.11-0.13.4.jar:/home/bartek/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.6.jar:/home/bartek/.ivy2/cache/org.asynchttpclient/async-http-client/jars/async-http-client-2.0.39.jar:/home/bartek/.ivy2/cache/org.asynchttpclient/async-http-client-netty-utils/jars/async-http-client-netty-utils-2.0.39.jar:/home/bartek/.ivy2/cache/io.netty/netty-buffer/jars/netty-buffer-4.0.56.Final.jar:/home/bartek/.ivy2/cache/io.netty/netty-common/jars/netty-common-4.0.56.Final.jar:/home/bartek/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.25.jar:/home/bartek/.ivy2/cache/io.netty/netty-codec-http/jars/netty-codec-http-4.0.56.Final.jar:/home/bartek/.ivy2/cache/io.netty/netty-codec/jars/netty-codec-4.0.56.Final.jar:/home/bartek/.ivy2/cache/io.netty/netty-transport/jars/netty-transport-4.0.56.Final.jar:/home/bartek/.ivy2/cache/io.netty/netty-handler/jars/netty-handler-4.0.56.Final.jar:/home/bartek/.ivy2/cache/io.netty/netty-transport-native-epoll/jars/netty-transport-native-epoll-4.0.56.Final-linux-x86_64.jar:/home/bartek/.ivy2/cache/org.asynchttpclient/netty-resolver-dns/jars/netty-resolver-dns-2.0.39.jar:/home/bartek/.ivy2/cache/org.asynchttpclient/netty-resolver/jars/netty-resolver-2.0.39.jar:/home/bartek/.ivy2/cache/org.asynchttpclient/netty-codec-dns/jars/netty-codec-dns-2.0.39.jar:/home/bartek/.ivy2/cache/org.reactivestreams/reactive-streams/jars/reactive-streams-1.0.0.jar:/home/bartek/.ivy2/cache/com.typesafe.netty/netty-reactive-streams/jars/netty-reactive-streams-1.0.8.jar:/home/bartek/.ivy2/cache/org.typelevel/cats-core_2.11/jars/cats-core_2.11-1.3.0.jar:/home/bartek/.ivy2/cache/org.typelevel/cats-macros_2.11/jars/cats-macros_2.11-1.3.0.jar:/home/bartek/.ivy2/cache/org.typelevel/machinist_2.11/jars/machinist_2.11-0.6.5.jar:/home/bartek/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.12.jar:/home/bartek/.ivy2/cache/org.scala-lang.modules/scala-collection-compat_2.11/bundles/scala-collection-compat_2.11-0.1.1.jar:/home/bartek/.ivy2/cache/org.typelevel/cats-kernel_2.11/jars/cats-kernel_2.11-1.3.0.jar:/home/bartek/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.6.10.jar:/home/bartek/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.6.10.jar:/home/bartek/.ivy2/cache/org.typelevel/macro-compat_2.11/jars/macro-compat_2.11-1.1.1.jar:/home/bartek/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.9.9.jar:/home/bartek/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.8.11.jar:/home/bartek/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.8.11.jar:/home/bartek/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/bundles/jackson-datatype-jdk8-2.8.11.jar:/home/bartek/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.8.11.1.jar:/home/bartek/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/bundles/jackson-datatype-jsr310-2.8.11.jar[0m
+[0m[[31merror[0m] [0m[0m
+[0m[[31merror[0m] [0m     while compiling: /home/bartek/IdeaProjects/tram/src/main/scala/MpkStop.scala[0m
+[0m[[31merror[0m] [0m        during phase: typer[0m
+[0m[[31merror[0m] [0m     library version: version 2.10.6[0m
+[0m[[31merror[0m] [0m    compiler version: version 2.10.6[0m
+[0m[[31merror[0m] [0m  reconstructed args: -classpath /home/bartek/IdeaProjects/tram/target/scala-2.11/classes:/home/bartek/.ivy2/cache/net.databinder.dispatch/dispatch-core_2.11/jars/dispatch-core_2.11-0.13.4.jar:/home/bartek/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.6.jar:/home/bartek/.ivy2/cache/org.asynchttpclient/async-http-client/jars/async-http-client-2.0.39.jar:/home/bartek/.ivy2/cache/org.asynchttpclient/async-http-client-netty-utils/jars/async-http-client-netty-utils-2.0.39.jar:/home/bartek/.ivy2/cache/io.netty/netty-buffer/jars/netty-buffer-4.0.56.Final.jar:/home/bartek/.ivy2/cache/io.netty/netty-common/jars/netty-common-4.0.56.Final.jar:/home/bartek/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.25.jar:/home/bartek/.ivy2/cache/io.netty/netty-codec-http/jars/netty-codec-http-4.0.56.Final.jar:/home/bartek/.ivy2/cache/io.netty/netty-codec/jars/netty-codec-4.0.56.Final.jar:/home/bartek/.ivy2/cache/io.netty/netty-transport/jars/netty-transport-4.0.56.Final.jar:/home/bartek/.ivy2/cache/io.netty/netty-handler/jars/netty-handler-4.0.56.Final.jar:/home/bartek/.ivy2/cache/io.netty/netty-transport-native-epoll/jars/netty-transport-native-epoll-4.0.56.Final-linux-x86_64.jar:/home/bartek/.ivy2/cache/org.asynchttpclient/netty-resolver-dns/jars/netty-resolver-dns-2.0.39.jar:/home/bartek/.ivy2/cache/org.asynchttpclient/netty-resolver/jars/netty-resolver-2.0.39.jar:/home/bartek/.ivy2/cache/org.asynchttpclient/netty-codec-dns/jars/netty-codec-dns-2.0.39.jar:/home/bartek/.ivy2/cache/org.reactivestreams/reactive-streams/jars/reactive-streams-1.0.0.jar:/home/bartek/.ivy2/cache/com.typesafe.netty/netty-reactive-streams/jars/netty-reactive-streams-1.0.8.jar:/home/bartek/.ivy2/cache/org.typelevel/cats-core_2.11/jars/cats-core_2.11-1.3.0.jar:/home/bartek/.ivy2/cache/org.typelevel/cats-macros_2.11/jars/cats-macros_2.11-1.3.0.jar:/home/bartek/.ivy2/cache/org.typelevel/machinist_2.11/jars/machinist_2.11-0.6.5.jar:/home/bartek/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.12.jar:/home/bartek/.ivy2/cache/org.scala-lang.modules/scala-collection-compat_2.11/bundles/scala-collection-compat_2.11-0.1.1.jar:/home/bartek/.ivy2/cache/org.typelevel/cats-kernel_2.11/jars/cats-kernel_2.11-1.3.0.jar:/home/bartek/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.6.10.jar:/home/bartek/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.6.10.jar:/home/bartek/.ivy2/cache/org.typelevel/macro-compat_2.11/jars/macro-compat_2.11-1.1.1.jar:/home/bartek/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.9.9.jar:/home/bartek/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.8.11.jar:/home/bartek/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.8.11.jar:/home/bartek/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/bundles/jackson-datatype-jdk8-2.8.11.jar:/home/bartek/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.8.11.1.jar:/home/bartek/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/bundles/jackson-datatype-jsr310-2.8.11.jar -bootclasspath /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.172-12.b11.fc28.x86_64/jre/lib/resources.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.172-12.b11.fc28.x86_64/jre/lib/rt.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.172-12.b11.fc28.x86_64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.172-12.b11.fc28.x86_64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.172-12.b11.fc28.x86_64/jre/lib/jce.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.172-12.b11.fc28.x86_64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.172-12.b11.fc28.x86_64/jre/lib/jfr.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.172-12.b11.fc28.x86_64/jre/classes:/home/bartek/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar[0m
+[0m[[31merror[0m] [0m[0m
+[0m[[31merror[0m] [0m  last tree to typer: Literal(Constant(()))[0m
+[0m[[31merror[0m] [0m              symbol: null[0m
+[0m[[31merror[0m] [0m   symbol definition: null[0m
+[0m[[31merror[0m] [0m                 tpe: Unit[0m
+[0m[[31merror[0m] [0m       symbol owners: [0m
+[0m[[31merror[0m] [0m      context owners: object MpkStop -> package <empty>[0m
+[0m[[31merror[0m] [0m[0m
+[0m[[31merror[0m] [0m== Enclosing template or block ==[0m
+[0m[[31merror[0m] [0m[0m
+[0m[[31merror[0m] [0mModuleDef( // object MpkStop[0m
+[0m[[31merror[0m] [0m  <module>[0m
+[0m[[31merror[0m] [0m  "MpkStop"[0m
+[0m[[31merror[0m] [0m  Template([0m
+[0m[[31merror[0m] [0m    "java.lang.Object" // parents[0m
+[0m[[31merror[0m] [0m    ValDef([0m
+[0m[[31merror[0m] [0m      private[0m
+[0m[[31merror[0m] [0m      "_"[0m
+[0m[[31merror[0m] [0m      <tpt>[0m
+[0m[[31merror[0m] [0m      <empty>[0m
+[0m[[31merror[0m] [0m    )[0m
+[0m[[31merror[0m] [0m    // 2 statements[0m
+[0m[[31merror[0m] [0m    DefDef( // def <init>: <?> in object MpkStop[0m
+[0m[[31merror[0m] [0m      <method>[0m
+[0m[[31merror[0m] [0m      "<init>"[0m
+[0m[[31merror[0m] [0m      [][0m
+[0m[[31merror[0m] [0m      List(Nil)[0m
+[0m[[31merror[0m] [0m      <tpt>[0m
+[0m[[31merror[0m] [0m      Block([0m
+[0m[[31merror[0m] [0m        Apply([0m
+[0m[[31merror[0m] [0m          super."<init>"[0m
+[0m[[31merror[0m] [0m          Nil[0m
+[0m[[31merror[0m] [0m        )[0m
+[0m[[31merror[0m] [0m        ()[0m
+[0m[[31merror[0m] [0m      )[0m
+[0m[[31merror[0m] [0m    )[0m
+[0m[[31merror[0m] [0m    DefDef( // implicit def mpkStopReads: <?> in object MpkStop[0m
+[0m[[31merror[0m] [0m      <method> implicit[0m
+[0m[[31merror[0m] [0m      "mpkStopReads"[0m
+[0m[[31merror[0m] [0m      [][0m
+[0m[[31merror[0m] [0m      Nil[0m
+[0m[[31merror[0m] [0m      <tpt>[0m
+[0m[[31merror[0m] [0m      Apply([0m
+[0m[[31merror[0m] [0m        Apply([0m
+[0m[[31merror[0m] [0m          __.$bslash("actual").read[List[Tram]].and(__.$bslash("directions").read[List[String]]).and(__.$bslash("firstPassageTime").read[Long]).and(__.$bslash("generalAlerts").read[List[String]]).and(__.$bslash("lastPassageTime").read[Long]).and(__.$bslash("old").read[List[JsValue]]).and(__.$bslash("routes").read[List[JsValue]]).and(__.$bslash("stopName").read[String])."and"[0m
+[0m[[31merror[0m] [0m          TypeApply([0m
+[0m[[31merror[0m] [0m            __.$bslash("stopShortName")."read"[0m
+[0m[[31merror[0m] [0m            "String"[0m
+[0m[[31merror[0m] [0m          )[0m
+[0m[[31merror[0m] [0m        )[0m
+[0m[[31merror[0m] [0m        Typed([0m
+[0m[[31merror[0m] [0m          "MpkStop"."apply"[0m
+[0m[[31merror[0m] [0m          Function([0m
+[0m[[31merror[0m] [0m            ()[0m
+[0m[[31merror[0m] [0m            <empty>[0m
+[0m[[31merror[0m] [0m          )[0m
+[0m[[31merror[0m] [0m        )[0m
+[0m[[31merror[0m] [0m      )[0m
+[0m[[31merror[0m] [0m    )[0m
+[0m[[31merror[0m] [0m  )[0m
+[0m[[31merror[0m] [0m)[0m
+[0m[[31merror[0m] [0m[0m
+[0m[[31merror[0m] [0m== Expanded type of tree ==[0m
+[0m[[31merror[0m] [0m[0m
+[0m[[31merror[0m] [0mTypeRef(TypeSymbol(final abstract class Unit extends AnyVal))[0m
+[0m[[31merror[0m] [0m[0m
+[0m[[31merror[0m] [0muncaught exception during compilation: scala.reflect.internal.MissingRequirementError[0m
+scala.reflect.internal.MissingRequirementError: class scala.annotation.serializable in compiler mirror not found.
+	at scala.reflect.internal.MissingRequirementError$.signal(MissingRequirementError.scala:16)
+	at scala.reflect.internal.MissingRequirementError$.notFound(MissingRequirementError.scala:17)
+	at scala.reflect.internal.Mirrors$RootsBase$$anonfun$getModuleOrClass$3.apply(Mirrors.scala:49)
+	at scala.reflect.internal.Mirrors$RootsBase$$anonfun$getModuleOrClass$3.apply(Mirrors.scala:49)
+	at scala.reflect.internal.Symbols$Symbol.orElse(Symbols.scala:2229)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:48)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:61)
+	at scala.reflect.internal.Mirrors$RootsBase.getClassByName(Mirrors.scala:99)
+	at scala.reflect.internal.Mirrors$RootsBase.getRequiredClass(Mirrors.scala:102)
+	at scala.reflect.internal.Mirrors$RootsBase.requiredClass(Mirrors.scala:105)
+	at scala.reflect.internal.Definitions$DefinitionsClass.SerializableAttr$lzycompute(Definitions.scala:962)
+	at scala.reflect.internal.Definitions$DefinitionsClass.SerializableAttr(Definitions.scala:962)
+	at scala.reflect.internal.Symbols$Symbol.isSerializable(Symbols.scala:720)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedModuleDef(Typers.scala:1798)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5584)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5642)
+	at scala.tools.nsc.typechecker.Typers$Typer.scala$tools$nsc$typechecker$Typers$Typer$$typedStat$1(Typers.scala:2928)
+	at scala.tools.nsc.typechecker.Typers$Typer$$anonfun$61.apply(Typers.scala:3032)
+	at scala.tools.nsc.typechecker.Typers$Typer$$anonfun$61.apply(Typers.scala:3032)
+	at scala.collection.immutable.List.loop$1(List.scala:170)
+	at scala.collection.immutable.List.mapConserve(List.scala:186)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3032)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5301)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5587)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5642)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5704)
+	at scala.tools.nsc.typechecker.Analyzer$typerFactory$$anon$3.apply(Analyzer.scala:99)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:464)
+	at scala.tools.nsc.typechecker.Analyzer$typerFactory$$anon$3$$anonfun$run$1.apply(Analyzer.scala:91)
+	at scala.tools.nsc.typechecker.Analyzer$typerFactory$$anon$3$$anonfun$run$1.apply(Analyzer.scala:91)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:727)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1157)
+	at scala.tools.nsc.typechecker.Analyzer$typerFactory$$anon$3.run(Analyzer.scala:91)
+	at scala.tools.nsc.Global$Run.compileUnitsInternal(Global.scala:1583)
+	at scala.tools.nsc.Global$Run.compileUnits(Global.scala:1557)
+	at scala.tools.nsc.Global$Run.compileSources(Global.scala:1553)
+	at scala.tools.nsc.Global$Run.compile(Global.scala:1662)
+	at xsbt.CachedCompiler0.run(CompilerInterface.scala:123)
+	at xsbt.CachedCompiler0.run(CompilerInterface.scala:99)
+	at xsbt.CompilerInterface.run(CompilerInterface.scala:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sbt.compiler.AnalyzingCompiler.call(AnalyzingCompiler.scala:102)
+	at sbt.compiler.AnalyzingCompiler.compile(AnalyzingCompiler.scala:48)
+	at sbt.compiler.AnalyzingCompiler.compile(AnalyzingCompiler.scala:41)
+	at sbt.compiler.AggressiveCompile$$anonfun$3$$anonfun$compileScala$1$1.apply$mcV$sp(AggressiveCompile.scala:98)
+	at sbt.compiler.AggressiveCompile$$anonfun$3$$anonfun$compileScala$1$1.apply(AggressiveCompile.scala:98)
+	at sbt.compiler.AggressiveCompile$$anonfun$3$$anonfun$compileScala$1$1.apply(AggressiveCompile.scala:98)
+	at sbt.compiler.AggressiveCompile.sbt$compiler$AggressiveCompile$$timed(AggressiveCompile.scala:159)
+	at sbt.compiler.AggressiveCompile$$anonfun$3.compileScala$1(AggressiveCompile.scala:97)
+	at sbt.compiler.AggressiveCompile$$anonfun$3.apply(AggressiveCompile.scala:142)
+	at sbt.compiler.AggressiveCompile$$anonfun$3.apply(AggressiveCompile.scala:86)
+	at sbt.inc.IncrementalCompile$$anonfun$doCompile$1.apply(Compile.scala:38)
+	at sbt.inc.IncrementalCompile$$anonfun$doCompile$1.apply(Compile.scala:36)
+	at sbt.inc.Incremental$.cycle(Incremental.scala:73)
+	at sbt.inc.Incremental$$anonfun$1.apply(Incremental.scala:33)
+	at sbt.inc.Incremental$$anonfun$1.apply(Incremental.scala:32)
+	at sbt.inc.Incremental$.manageClassfiles(Incremental.scala:41)
+	at sbt.inc.Incremental$.compile(Incremental.scala:32)
+	at sbt.inc.IncrementalCompile$.apply(Compile.scala:26)
+	at sbt.compiler.AggressiveCompile.compile2(AggressiveCompile.scala:150)
+	at sbt.compiler.AggressiveCompile.compile1(AggressiveCompile.scala:70)
+	at sbt.compiler.AggressiveCompile.apply(AggressiveCompile.scala:45)
+	at sbt.Compiler$.apply(Compiler.scala:70)
+	at sbt.Defaults$.sbt$Defaults$$compileTaskImpl(Defaults.scala:736)
+	at sbt.Defaults$$anonfun$compileTask$1.apply(Defaults.scala:730)
+	at sbt.Defaults$$anonfun$compileTask$1.apply(Defaults.scala:730)
+	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:47)
+	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:42)
+	at sbt.std.Transform$$anon$4.work(System.scala:64)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:237)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:237)
+	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:18)
+	at sbt.Execute.work(Execute.scala:244)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:237)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:237)
+	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:160)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:30)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m[[31merror[0m] [0m(compile:[31mcompile[0m) scala.reflect.internal.MissingRequirementError: class scala.annotation.serializable in compiler mirror not found.[0m
